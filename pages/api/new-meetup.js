@@ -11,7 +11,7 @@ const handler = async (req, res) => {
 
     const meetupsCollection = db.collection('meetups')
 
-    await meetupsCollection.insertOne(data)
+    meetupsCollection.insertOne(data)
 
     // const result = await meetupsCollection.insertOne(data)
 

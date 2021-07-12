@@ -15,7 +15,7 @@ const NewMeetupPage = () => {
       },
     })
 
-    await response.json()
+    response.json()
 
     // const data = await response.json()
 
